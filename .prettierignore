@@ -1,0 +1,11 @@
+# Ignore artifacts:
+dist
+target
+node_modules
+assembly.xml
+pom.xml
+src/main/webpack/includes/head.html
+src/main/webpack/includes/end.html
+src/main/webpack/static/brand_jaguar/templates/home_template/index.html
+src/main/webpack/static/brand_jlr/templates/home_template/index.html
+src/main/webpack/static/brand_landrover/templates/home_template/index.html

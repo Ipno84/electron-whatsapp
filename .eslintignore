@@ -1,0 +1,17 @@
+../ui.apps/
+./src/main/webpack/tests/
+/webpack.common.js
+/webpack.dev.js
+/webpack.prod.js
+./src/main/webpack/includes/head.html
+./src/main/webpack/includes/end.html
+./src/main/webpack/static/brand_jaguar/templates/home_template/index.html
+./src/main/webpack/static/brand_jlr/templates/home_template/index.html
+./src/main/webpack/static/brand_landrover/templates/home_template/index.html
+./src/main/webpack/site/js/itg-private-packages/@configureconnect/cplayer-api/cplayer-api.js
+./src/main/webpack/site/js/itg-private-packages/@configureconnect/cplayer-js/cplayer-js.js
+./src/main/webpack/site/js/itg-private-packages/@configureconnect/jquery-threesixty/jquery.threesixty.js
+./src/main/webpack/site/js/itg-private-packages/@configureconnect/rulesconnectjs/rulesconnect.js
+itg-private-packages
+dist
+target
