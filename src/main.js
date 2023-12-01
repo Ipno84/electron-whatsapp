@@ -11,6 +11,7 @@ const createWhatsappWindow = () => {
     width,
     height,
     show: false,
+    icon: path.join(__dirname, 'assets/icons/icon.png'),
     webPreferences: {
       nodeIntegration: true,
       preload: path.join(__dirname, 'preload.js'),
@@ -22,7 +23,7 @@ const createWhatsappWindow = () => {
   whatsappWindow.maximize();
   whatsappWindow.show();
 
-  whatsappWindow.on('close', function () {
+  whatsappWindow.on('close', () => {
     whatsappWindow = null;
   });
 };
